@@ -1,0 +1,962 @@
+[
+    {
+        "name": "Kara Boehm",
+        "location": {
+            "street": "3533 Hartmann Parks",
+            "city": "Lugovoye",
+            "country": "Kazakhstan"
+        },
+        "when": "15/01/2023",
+        "price": "$2,537.37",
+        "type": "Mansion",
+        "img": "#1a0147"
+    },
+    {
+        "name": "Sadie Jenkins",
+        "location": {
+            "street": "36835 Bryon Mountain",
+            "city": "Karia Ba Mohamed",
+            "country": "Morocco"
+        },
+        "when": "29/01/2023",
+        "price": "$3,335.94",
+        "type": "Cottage",
+        "img": "#336432"
+    },
+    {
+        "name": "Lindsay Hand",
+        "location": {
+            "street": "46860 Adams Ferry",
+            "city": "Ressano Garcia",
+            "country": "Mozambique"
+        },
+        "when": "07/01/2023",
+        "price": "$3,892.49",
+        "type": "Mansion",
+        "img": "#733170"
+    },
+    {
+        "name": "Kevin Lynch",
+        "location": {
+            "street": "355 Zachary Skyway",
+            "city": "Masingbi",
+            "country": "Sierra Leone"
+        },
+        "when": "25/12/2022",
+        "price": "$1,963.41",
+        "type": "Bungalow",
+        "img": "#6d4c68"
+    },
+    {
+        "name": "Julia Glover",
+        "location": {
+            "street": "36338 Lenny Hollow",
+            "city": "Seria",
+            "country": "Brunei Darussalam"
+        },
+        "when": "21/12/2022",
+        "price": "$2,330.22",
+        "type": "Mansion",
+        "img": "#151227"
+    },
+    {
+        "name": "Kirk Romaguera",
+        "location": {
+            "street": "16995 Beatty Ports",
+            "city": "Musanze",
+            "country": "Rwanda"
+        },
+        "when": "11/11/2022",
+        "price": "$3,806.07",
+        "type": "Cottage",
+        "img": "#2e1e56"
+    },
+    {
+        "name": "Lance O'Kon",
+        "location": {
+            "street": "34143 Ledner Lane",
+            "city": "George Town",
+            "country": "Bahamas"
+        },
+        "when": "21/01/2023",
+        "price": "$3,517.97",
+        "type": "Cottage",
+        "img": "#516608"
+    },
+    {
+        "name": "Olivia Parisian",
+        "location": {
+            "street": "3696 Boyer Turnpike",
+            "city": "San Fernando",
+            "country": "Trinidad and Tobago"
+        },
+        "when": "27/01/2023",
+        "price": "$3,259.68",
+        "type": "Bungalow",
+        "img": "#5d1544"
+    },
+    {
+        "name": "Janice Tremblay",
+        "location": {
+            "street": "363 Jacynthe Summit",
+            "city": "Schengen",
+            "country": "Luxembourg"
+        },
+        "when": "21/11/2022",
+        "price": "$2,035.36",
+        "type": "Appartment",
+        "img": "#377001"
+    },
+    {
+        "name": "Dianne Gorczany",
+        "location": {
+            "street": "131 Zieme Alley",
+            "city": "Kelo",
+            "country": "Chad"
+        },
+        "when": "18/01/2023",
+        "price": "$2,007.57",
+        "type": "Appartment",
+        "img": "#5b2076"
+    },
+    {
+        "name": "Reginald Hahn",
+        "location": {
+            "street": "557 Romaguera Forges",
+            "city": "Richelieu",
+            "country": "Canada"
+        },
+        "when": "26/12/2022",
+        "price": "$2,136.97",
+        "type": "Skyscraper",
+        "img": "#6b031f"
+    },
+    {
+        "name": "Tami Sipes",
+        "location": {
+            "street": "341 Harvey Fords",
+            "city": "La Parguera",
+            "country": "Puerto Rico"
+        },
+        "when": "20/12/2022",
+        "price": "$2,502.02",
+        "type": "Villa",
+        "img": "#7f020d"
+    },
+    {
+        "name": "Joe Hoeger",
+        "location": {
+            "street": "996 Hollie Mill",
+            "city": "Anse-à-Pitre",
+            "country": "Haiti"
+        },
+        "when": "19/12/2022",
+        "price": "$4,631.83",
+        "type": "Mansion",
+        "img": "#692230"
+    },
+    {
+        "name": "Samantha Morar",
+        "location": {
+            "street": "54150 Witting Island",
+            "city": "eMbalenhle",
+            "country": "South Africa"
+        },
+        "when": "24/11/2022",
+        "price": "$950.46",
+        "type": "Skyscraper",
+        "img": "#782c67"
+    },
+    {
+        "name": "Terri Barton",
+        "location": {
+            "street": "4042 Prudence Light",
+            "city": "New Amsterdam",
+            "country": "Guyana"
+        },
+        "when": "06/12/2022",
+        "price": "$1,452.01",
+        "type": "Bungalow",
+        "img": "#287a2d"
+    },
+    {
+        "name": "Jerome Adams",
+        "location": {
+            "street": "973 Chloe Dam",
+            "city": "Mhangura",
+            "country": "Zimbabwe"
+        },
+        "when": "04/12/2022",
+        "price": "$3,706.74",
+        "type": "Mansion",
+        "img": "#7a3029"
+    },
+    {
+        "name": "Jaime Champlin",
+        "location": {
+            "street": "12822 Mireya Route",
+            "city": "Eystur",
+            "country": "Faroe Islands"
+        },
+        "when": "23/12/2022",
+        "price": "$1,862.80",
+        "type": "Mansion",
+        "img": "#5a0664"
+    },
+    {
+        "name": "Roosevelt Crona",
+        "location": {
+            "street": "8014 Wade Way",
+            "city": "Bucovăţ",
+            "country": "Moldova"
+        },
+        "when": "22/01/2023",
+        "price": "$1,105.43",
+        "type": "Cottage",
+        "img": "#706f52"
+    },
+    {
+        "name": "Henry Kozey",
+        "location": {
+            "street": "3208 Levi Stream",
+            "city": "Barcelona",
+            "country": "Spain"
+        },
+        "when": "22/11/2022",
+        "price": "$4,207.01",
+        "type": "Bungalow",
+        "img": "#602753"
+    },
+    {
+        "name": "Norma Ratke",
+        "location": {
+            "street": "5845 Stoltenberg Forge",
+            "city": "Vatican City",
+            "country": "Holy See (Vatican City State)"
+        },
+        "when": "16/12/2022",
+        "price": "$3,419.03",
+        "type": "Villa",
+        "img": "#3c0409"
+    },
+    {
+        "name": "Laverne Kris",
+        "location": {
+            "street": "98540 Morgan Trace",
+            "city": "Stanley",
+            "country": "Falkland Islands (Malvinas)"
+        },
+        "when": "08/01/2023",
+        "price": "$3,951.63",
+        "type": "Cottage",
+        "img": "#156f4a"
+    },
+    {
+        "name": "Taylor Wolff",
+        "location": {
+            "street": "6049 Lorena Radial",
+            "city": "Bishopton",
+            "country": "United Kingdom"
+        },
+        "when": "21/12/2022",
+        "price": "$4,648.15",
+        "type": "Skyscraper",
+        "img": "#43457b"
+    },
+    {
+        "name": "Cindy Moen",
+        "location": {
+            "street": "7859 Jazmin Center",
+            "city": "Traipu",
+            "country": "Brazil"
+        },
+        "when": "26/01/2023",
+        "price": "$2,255.71",
+        "type": "Villa",
+        "img": "#5d051e"
+    },
+    {
+        "name": "Ian Hegmann",
+        "location": {
+            "street": "432 Carissa Views",
+            "city": "Ar Ruseris",
+            "country": "Sudan"
+        },
+        "when": "11/01/2023",
+        "price": "$2,772.50",
+        "type": "Villa",
+        "img": "#0f215d"
+    },
+    {
+        "name": "Lee Bradtke",
+        "location": {
+            "street": "9245 Kuphal Springs",
+            "city": "Lautoka",
+            "country": "Fiji"
+        },
+        "when": "08/12/2022",
+        "price": "$2,452.75",
+        "type": "Villa",
+        "img": "#3a7101"
+    },
+    {
+        "name": "Craig Kassulke",
+        "location": {
+            "street": "1446 Dietrich Garden",
+            "city": "Guánica",
+            "country": "Puerto Rico"
+        },
+        "when": "06/01/2023",
+        "price": "$4,198.14",
+        "type": "Skyscraper",
+        "img": "#7f4f01"
+    },
+    {
+        "name": "Seth Jast",
+        "location": {
+            "street": "2236 Jerad Ramp",
+            "city": "",
+            "country": "Heard Island and McDonald Islands"
+        },
+        "when": "12/12/2022",
+        "price": "$1,030.48",
+        "type": "Villa",
+        "img": "#476033"
+    },
+    {
+        "name": "Enrique Padberg",
+        "location": {
+            "street": "113 Torp Shoal",
+            "city": "Calabazar de Sagua",
+            "country": "Cuba"
+        },
+        "when": "19/11/2022",
+        "price": "$4,847.33",
+        "type": "Mansion",
+        "img": "#1b0912"
+    },
+    {
+        "name": "Jay Kuhn",
+        "location": {
+            "street": "13252 Lucious Plain",
+            "city": "Abū Qurqāş",
+            "country": "Egypt"
+        },
+        "when": "18/12/2022",
+        "price": "$1,490.73",
+        "type": "Cottage",
+        "img": "#640234"
+    },
+    {
+        "name": "Hilda Kris",
+        "location": {
+            "street": "645 Kelly Turnpike",
+            "city": "Hundorp",
+            "country": "Norway"
+        },
+        "when": "18/12/2022",
+        "price": "$1,125.22",
+        "type": "Skyscraper",
+        "img": "#545e74"
+    },
+    {
+        "name": "Mack Blanda",
+        "location": {
+            "street": "36982 Jerde Mountains",
+            "city": "Ghulām ‘Alī",
+            "country": "Afghanistan"
+        },
+        "when": "05/12/2022",
+        "price": "$4,483.20",
+        "type": "Skyscraper",
+        "img": "#47743a"
+    },
+    {
+        "name": "Jay Ratke",
+        "location": {
+            "street": "43532 Leslie Bypass",
+            "city": "Orsha",
+            "country": "Belarus"
+        },
+        "when": "17/11/2022",
+        "price": "$4,494.98",
+        "type": "Villa",
+        "img": "#361c19"
+    },
+    {
+        "name": "Aaron Metz",
+        "location": {
+            "street": "6654 Ortiz Lodge",
+            "city": "Mirabel",
+            "country": "Canada"
+        },
+        "when": "12/11/2022",
+        "price": "$3,613.88",
+        "type": "Appartment",
+        "img": "#307506"
+    },
+    {
+        "name": "Dallas Stracke",
+        "location": {
+            "street": "5798 Bette Ferry",
+            "city": "Al Mighlāf",
+            "country": "Yemen"
+        },
+        "when": "24/11/2022",
+        "price": "$3,987.34",
+        "type": "Villa",
+        "img": "#124d19"
+    },
+    {
+        "name": "Bryant Bruen",
+        "location": {
+            "street": "77977 Block Ways",
+            "city": "Tamanar",
+            "country": "Morocco"
+        },
+        "when": "22/11/2022",
+        "price": "$4,558.30",
+        "type": "Villa",
+        "img": "#7a615b"
+    },
+    {
+        "name": "Angela Breitenberg",
+        "location": {
+            "street": "5957 Stoltenberg Hills",
+            "city": "Puerto Plata",
+            "country": "Dominican Republic"
+        },
+        "when": "17/11/2022",
+        "price": "$4,080.12",
+        "type": "Appartment",
+        "img": "#4c0726"
+    },
+    {
+        "name": "Irving Schowalter",
+        "location": {
+            "street": "07757 Hand Passage",
+            "city": "Grytviken",
+            "country": "South Georgia and the South Sandwich Islands"
+        },
+        "when": "23/11/2022",
+        "price": "$4,185.99",
+        "type": "Mansion",
+        "img": "#7b3b7b"
+    },
+    {
+        "name": "Eloise Hirthe",
+        "location": {
+            "street": "86808 Kuhic Mission",
+            "city": "Chitipa",
+            "country": "Malawi"
+        },
+        "when": "17/11/2022",
+        "price": "$3,025.33",
+        "type": "Appartment",
+        "img": "#38367e"
+    },
+    {
+        "name": "Dennis Kuhlman",
+        "location": {
+            "street": "8070 Devonte Divide",
+            "city": "Marabba",
+            "country": "Sudan"
+        },
+        "when": "10/01/2023",
+        "price": "$4,479.32",
+        "type": "Skyscraper",
+        "img": "#480005"
+    },
+    {
+        "name": "Darren Swift",
+        "location": {
+            "street": "043 Bartoletti Mountain",
+            "city": "Ban Houakhoua",
+            "country": "Lao People's Democratic Republic"
+        },
+        "when": "20/11/2022",
+        "price": "$2,960.72",
+        "type": "Mansion",
+        "img": "#377b3e"
+    },
+    {
+        "name": "Harold Gutmann",
+        "location": {
+            "street": "69303 Stuart Crest",
+            "city": "All Saints",
+            "country": "Antigua and Barbuda"
+        },
+        "when": "04/12/2022",
+        "price": "$3,386.17",
+        "type": "Appartment",
+        "img": "#7a1353"
+    },
+    {
+        "name": "Meghan Cormier",
+        "location": {
+            "street": "3593 Pollich View",
+            "city": "Şirna",
+            "country": "Romania"
+        },
+        "when": "22/12/2022",
+        "price": "$740.79",
+        "type": "Villa",
+        "img": "#113445"
+    },
+    {
+        "name": "Aubrey Roberts",
+        "location": {
+            "street": "57346 Elmo Key",
+            "city": "Singapore",
+            "country": "Singapore"
+        },
+        "when": "24/11/2022",
+        "price": "$985.72",
+        "type": "Bungalow",
+        "img": "#77693f"
+    },
+    {
+        "name": "Benjamin Mosciski",
+        "location": {
+            "street": "8712 Blanche Shoals",
+            "city": "Gorgān",
+            "country": "Iran"
+        },
+        "when": "23/01/2023",
+        "price": "$1,260.29",
+        "type": "Mansion",
+        "img": "#7b4740"
+    },
+    {
+        "name": "Leslie O'Hara",
+        "location": {
+            "street": "032 Deckow Avenue",
+            "city": "",
+            "country": "Heard Island and McDonald Islands"
+        },
+        "when": "30/11/2022",
+        "price": "$3,494.55",
+        "type": "Cottage",
+        "img": "#3f1a78"
+    },
+    {
+        "name": "Pete Herman",
+        "location": {
+            "street": "48373 Mraz Trace",
+            "city": "Granard",
+            "country": "Ireland"
+        },
+        "when": "06/12/2022",
+        "price": "$1,106.50",
+        "type": "Appartment",
+        "img": "#2c3815"
+    },
+    {
+        "name": "Hector Rippin",
+        "location": {
+            "street": "2537 Erdman Crescent",
+            "city": "El Cairo",
+            "country": "Colombia"
+        },
+        "when": "29/11/2022",
+        "price": "$3,081.11",
+        "type": "Mansion",
+        "img": "#470637"
+    },
+    {
+        "name": "Ted McLaughlin",
+        "location": {
+            "street": "2340 Simonis Curve",
+            "city": "Soufrière",
+            "country": "Dominica"
+        },
+        "when": "24/12/2022",
+        "price": "$1,108.19",
+        "type": "Cottage",
+        "img": "#324b29"
+    },
+    {
+        "name": "Santos Marvin",
+        "location": {
+            "street": "674 Sanford Grove",
+            "city": "Tutong",
+            "country": "Brunei Darussalam"
+        },
+        "when": "14/12/2022",
+        "price": "$1,763.24",
+        "type": "Villa",
+        "img": "#7a572d"
+    },
+    {
+        "name": "Lynn Bahringer",
+        "location": {
+            "street": "18617 Zieme Spurs",
+            "city": "Luis Llorens Torres",
+            "country": "Puerto Rico"
+        },
+        "when": "04/01/2023",
+        "price": "$4,332.78",
+        "type": "Appartment",
+        "img": "#605901"
+    },
+    {
+        "name": "Eleanor Kutch",
+        "location": {
+            "street": "617 Camren Summit",
+            "city": "Gjorica e Sipërme",
+            "country": "Albania"
+        },
+        "when": "08/12/2022",
+        "price": "$624.59",
+        "type": "Cottage",
+        "img": "#04097f"
+    },
+    {
+        "name": "Marcia Cartwright",
+        "location": {
+            "street": "0271 Kathleen Summit",
+            "city": "Leone",
+            "country": "American Samoa"
+        },
+        "when": "27/12/2022",
+        "price": "$4,701.62",
+        "type": "Bungalow",
+        "img": "#190c65"
+    },
+    {
+        "name": "Johnnie Farrell",
+        "location": {
+            "street": "2758 Britney Views",
+            "city": "Guaymango",
+            "country": "El Salvador"
+        },
+        "when": "12/11/2022",
+        "price": "$4,273.27",
+        "type": "Villa",
+        "img": "#47395f"
+    },
+    {
+        "name": "Sandy Walter",
+        "location": {
+            "street": "5653 Tomas Glens",
+            "city": "São João dos Angolares",
+            "country": "Sao Tome and Principe"
+        },
+        "when": "31/12/2022",
+        "price": "$976.14",
+        "type": "Villa",
+        "img": "#2e0e30"
+    },
+    {
+        "name": "Karen Torphy",
+        "location": {
+            "street": "95419 Alfred Hills",
+            "city": "Dikhil",
+            "country": "Djibouti"
+        },
+        "when": "14/12/2022",
+        "price": "$4,546.08",
+        "type": "Villa",
+        "img": "#18160d"
+    },
+    {
+        "name": "Bonnie Bechtelar",
+        "location": {
+            "street": "7668 Tremblay Isle",
+            "city": "Wang Sai Phun",
+            "country": "Thailand"
+        },
+        "when": "19/11/2022",
+        "price": "$4,213.70",
+        "type": "Bungalow",
+        "img": "#64601c"
+    },
+    {
+        "name": "Johnnie Walker",
+        "location": {
+            "street": "5008 Mariah Place",
+            "city": "Lethem",
+            "country": "Guyana"
+        },
+        "when": "20/11/2022",
+        "price": "$3,380.81",
+        "type": "Bungalow",
+        "img": "#25625b"
+    },
+    {
+        "name": "Luz Miller",
+        "location": {
+            "street": "025 Perry Glen",
+            "city": "Anakao",
+            "country": "Madagascar"
+        },
+        "when": "03/12/2022",
+        "price": "$2,641.85",
+        "type": "Mansion",
+        "img": "#5f6e15"
+    },
+    {
+        "name": "Kari Kshlerin",
+        "location": {
+            "street": "7971 Lehner Mission",
+            "city": "Marabba",
+            "country": "Sudan"
+        },
+        "when": "18/11/2022",
+        "price": "$503.96",
+        "type": "Cottage",
+        "img": "#196e7d"
+    },
+    {
+        "name": "Norman Williamson",
+        "location": {
+            "street": "41203 Glover Island",
+            "city": "Nzega",
+            "country": "Rwanda"
+        },
+        "when": "15/01/2023",
+        "price": "$1,519.34",
+        "type": "Appartment",
+        "img": "#553f50"
+    },
+    {
+        "name": "Debbie Wuckert",
+        "location": {
+            "street": "9018 Modesta Island",
+            "city": "Bassila",
+            "country": "Benin"
+        },
+        "when": "29/01/2023",
+        "price": "$1,224.72",
+        "type": "Villa",
+        "img": "#2d547f"
+    },
+    {
+        "name": "Alfred Kessler",
+        "location": {
+            "street": "6100 Mervin Village",
+            "city": "Macau",
+            "country": "Macao"
+        },
+        "when": "25/11/2022",
+        "price": "$618.14",
+        "type": "Cottage",
+        "img": "#404301"
+    },
+    {
+        "name": "Constance Gutmann",
+        "location": {
+            "street": "63009 Pablo Stravenue",
+            "city": "Villa Presidente Frei, Ñuñoa, Santiago, Chile",
+            "country": "Chile"
+        },
+        "when": "23/01/2023",
+        "price": "$4,279.61",
+        "type": "Cottage",
+        "img": "#16576e"
+    },
+    {
+        "name": "Jonathon Kihn",
+        "location": {
+            "street": "59408 Dickens Dale",
+            "city": "Magong",
+            "country": "Taiwan"
+        },
+        "when": "30/11/2022",
+        "price": "$2,614.83",
+        "type": "Bungalow",
+        "img": "#03020c"
+    },
+    {
+        "name": "Grace Daugherty",
+        "location": {
+            "street": "264 Cronin Plaza",
+            "city": "Port-aux-Français",
+            "country": "French Southern Territories"
+        },
+        "when": "25/11/2022",
+        "price": "$4,573.15",
+        "type": "Bungalow",
+        "img": "#316d3d"
+    },
+    {
+        "name": "Rebecca Boyer",
+        "location": {
+            "street": "927 Zboncak Row",
+            "city": "Minas de Corrales",
+            "country": "Uruguay"
+        },
+        "when": "21/11/2022",
+        "price": "$3,329.96",
+        "type": "Appartment",
+        "img": "#0c523c"
+    },
+    {
+        "name": "Mattie Leffler",
+        "location": {
+            "street": "252 Streich Points",
+            "city": "Matthew Town",
+            "country": "Bahamas"
+        },
+        "when": "31/12/2022",
+        "price": "$2,672.82",
+        "type": "Villa",
+        "img": "#212e0e"
+    },
+    {
+        "name": "Angel Mitchell",
+        "location": {
+            "street": "055 Jacobs Drive",
+            "city": "Donji Milanovac",
+            "country": "Serbia"
+        },
+        "when": "17/12/2022",
+        "price": "$1,207.47",
+        "type": "Cottage",
+        "img": "#3f1421"
+    },
+    {
+        "name": "Eva Hilpert",
+        "location": {
+            "street": "274 Witting Summit",
+            "city": "Siglé",
+            "country": "Burkina Faso"
+        },
+        "when": "30/01/2023",
+        "price": "$619.72",
+        "type": "Skyscraper",
+        "img": "#202e1b"
+    },
+    {
+        "name": "Boyd Tromp",
+        "location": {
+            "street": "90988 Murphy Turnpike",
+            "city": "Broc",
+            "country": "Switzerland"
+        },
+        "when": "12/12/2022",
+        "price": "$554.79",
+        "type": "Villa",
+        "img": "#52266a"
+    },
+    {
+        "name": "Terrence Lockman",
+        "location": {
+            "street": "7230 Lesch Street",
+            "city": "Grytviken",
+            "country": "South Georgia and the South Sandwich Islands"
+        },
+        "when": "13/12/2022",
+        "price": "$2,242.05",
+        "type": "Mansion",
+        "img": "#324219"
+    },
+    {
+        "name": "Lynette Kuhic",
+        "location": {
+            "street": "4692 Becker Land",
+            "city": "Katchang",
+            "country": "Gambia"
+        },
+        "when": "06/12/2022",
+        "price": "$2,226.60",
+        "type": "Bungalow",
+        "img": "#5b2b6b"
+    },
+    {
+        "name": "Shelley Zboncak",
+        "location": {
+            "street": "6984 Jameson Branch",
+            "city": "Neiafu",
+            "country": "Tonga"
+        },
+        "when": "28/11/2022",
+        "price": "$574.10",
+        "type": "Skyscraper",
+        "img": "#2f4663"
+    },
+    {
+        "name": "Mario Douglas",
+        "location": {
+            "street": "6449 Hessel Stream",
+            "city": "Encarnación",
+            "country": "Paraguay"
+        },
+        "when": "30/12/2022",
+        "price": "$3,987.58",
+        "type": "Bungalow",
+        "img": "#226456"
+    },
+    {
+        "name": "Helen Braun",
+        "location": {
+            "street": "36626 Ankunding Fords",
+            "city": "Marigot",
+            "country": "Saint Martin"
+        },
+        "when": "29/12/2022",
+        "price": "$4,288.81",
+        "type": "Cottage",
+        "img": "#7a3e03"
+    },
+    {
+        "name": "Joanne Smith",
+        "location": {
+            "street": "8426 Bayer Ford",
+            "city": "Gisenyi",
+            "country": "Rwanda"
+        },
+        "when": "29/11/2022",
+        "price": "$1,476.96",
+        "type": "Mansion",
+        "img": "#282d26"
+    },
+    {
+        "name": "Gerardo Koelpin",
+        "location": {
+            "street": "9121 Jamie Forest",
+            "city": "Vân Canh",
+            "country": "Vietnam"
+        },
+        "when": "14/12/2022",
+        "price": "$2,591.04",
+        "type": "Villa",
+        "img": "#0a2852"
+    },
+    {
+        "name": "Suzanne Pouros",
+        "location": {
+            "street": "61479 Osinski Inlet",
+            "city": "San Felipe",
+            "country": "Chile"
+        },
+        "when": "11/11/2022",
+        "price": "$2,829.50",
+        "type": "Bungalow",
+        "img": "#230c7b"
+    },
+    {
+        "name": "Ramiro Feil",
+        "location": {
+            "street": "0600 Stanton Extension",
+            "city": "Saladillo",
+            "country": "Argentina"
+        },
+        "when": "09/01/2023",
+        "price": "$1,754.05",
+        "type": "Bungalow",
+        "img": "#30711b"
+    },
+    {
+        "name": "Brett Jones",
+        "location": {
+            "street": "9678 Ruecker Street",
+            "city": "Melfi",
+            "country": "Chad"
+        },
+        "when": "14/11/2022",
+        "price": "$778.92",
+        "type": "Mansion",
+        "img": "#0c2b43"
+    }
+]
