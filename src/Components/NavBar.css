@@ -1,0 +1,15 @@
+.navbar {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navbarLink {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px;
+
+}

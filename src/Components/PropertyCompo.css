@@ -1,0 +1,30 @@
+.propertyContainer {
+    width: 250px;
+    text-align: left;
+    background-color: rgba(228, 228, 228, 0.637);
+    border-radius: 10px;
+}
+
+.propertyImage {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.propertyDescPart {
+    padding: 5px 10px 15px 10px;
+}
+
+.priceAndButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.propertyButton {
+    width: 35px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
