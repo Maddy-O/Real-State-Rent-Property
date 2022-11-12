@@ -1,41 +1,40 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./HomePage.css";
 import data from "../dummyData.json";
 import PropertyCompo from "../Components/PropertyCompo";
 
 const HomePage = () => {
+  const [allProperty, setAllProperty] = useState(data);
   const [location, setLocation] = useState("");
   const [date, setDate] = useState("2022-11-10");
   const [price, setPrice] = useState("");
+  const [type, setType] = useState("");
 
-  const searchLocation = (e) => {
-    setLocation(e);
-    let country = data.filter((e) => e.location.country === location);
-    let city = data.filter((e) => e.location.city === location);
-    if (country) {
-    }
-    console.log(country, city);
-  };
-
-  const searchDate = (e) => {
-    console.log(new Date(e) - new Date("2022-12-12"));
-    setDate(e);
-    let checkDate = data.filter(
-      (e) => new Date(date) - new Date(e.location.date) < 0
+  const search = () => {
+    let searchData = data;
+    let searchLocation2 = searchData.filter(
+      (e) => e.location.country === location
     );
-    console.log(checkDate);
+    searchData = searchLocation2;
+    let searchDate2 = searchData.filter((e) => {
+      return new Date(e.when) - new Date(date) > 0;
+    });
+    searchData = searchDate2;
+    let c = price.split("-");
+    let searchPrice2 = searchData.filter((e) => {
+      const aa = e.price.split("$");
+      const num = parseFloat(aa[1].replace(",", ""));
+      let a = price.split("-");
+      return num >= Number(a[0]) && num <= Number(a[1]);
+    });
+    searchData = searchPrice2;
+    let searchType2 = searchData.filter((e) => e.type === type);
+    searchData = searchType2;
+    setAllProperty(searchData);
+    console.log(searchData);
   };
 
-  const searchPrice = (e) => {
-    setPrice(e);
-    let c = e.split("-");
-    console.log(c);
-    let checkPrice = data.filter((e) => {
-      let a = e.price.split("$");
-      return Number(a[1]) >= Number(c[0]) && Number(a[1]) <= Number(c[1]);
-    });
-    console.log(checkPrice);
-  };
+  useEffect(() => {}, []);
 
   return (
     <>
@@ -51,7 +50,7 @@ const HomePage = () => {
               placeholder="Location"
               type="text"
               value={location}
-              onChange={(e) => searchLocation(e.target.value)}
+              onChange={(e) => setLocation(e.target.value)}
             />
           </div>
           <div className="searchBlocks">
@@ -60,7 +59,7 @@ const HomePage = () => {
               placeholder="Select Move-in Date"
               type="date"
               value={date}
-              onChange={(e) => searchDate(e.target.value)}
+              onChange={(e) => setDate(e.target.value)}
             />
           </div>
           <div className="searchBlocks">
@@ -69,7 +68,7 @@ const HomePage = () => {
               name="price"
               id="price"
               value={price}
-              onChange={(e) => searchPrice(e.target.value)}
+              onChange={(e) => setPrice(e.target.value)}
             >
               <option value="500-5000">All</option>
               <option value="500-1500">$500-$1500</option>
@@ -79,22 +78,29 @@ const HomePage = () => {
           </div>
           <div className="searchBlocks">
             <label>Property Type</label>
-            <select name="type" id="type">
-              <option>Villa</option>
-              <option>Bungalow</option>
-              <option>skyscraper</option>
-              <option>Mansion</option>
-              <option>cottage</option>
-              <option>Appartment</option>
+            <select
+              name="type"
+              id="type"
+              value={type}
+              onChange={(e) => setType(e.target.value)}
+            >
+              <option value={"Villa"}>Villa</option>
+              <option value={"Bungalow"}>Bungalow</option>
+              <option value={"Skyscraper"}>Skyscraper</option>
+              <option value={"Mansion"}>Mansion</option>
+              <option value={"Cottage"}>Cottage</option>
+              <option value={"Appartment"}>Appartment</option>
             </select>
           </div>
           <div className="searchBlocks searchButton searchBlocks-l">
-            <button className="button">Search</button>
+            <button className="button" onClick={search}>
+              Search
+            </button>
           </div>
         </div>
       </div>
       <div id="properties">
-        {data.map((e, index) => (
+        {allProperty.map((e, index) => (
           <PropertyCompo key={index} property={e} />
         ))}
       </div>
