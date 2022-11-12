@@ -6,32 +6,39 @@ import PropertyCompo from "../Components/PropertyCompo";
 const HomePage = () => {
   const [allProperty, setAllProperty] = useState(data);
   const [location, setLocation] = useState("");
-  const [date, setDate] = useState("2022-11-10");
+  const [date, setDate] = useState("");
   const [price, setPrice] = useState("");
   const [type, setType] = useState("");
 
   const search = () => {
     let searchData = data;
-    let searchLocation2 = searchData.filter(
-      (e) => e.location.country === location
-    );
-    searchData = searchLocation2;
-    let searchDate2 = searchData.filter((e) => {
-      return new Date(e.when) - new Date(date) > 0;
-    });
-    searchData = searchDate2;
-    let c = price.split("-");
-    let searchPrice2 = searchData.filter((e) => {
-      const aa = e.price.split("$");
-      const num = parseFloat(aa[1].replace(",", ""));
-      let a = price.split("-");
-      return num >= Number(a[0]) && num <= Number(a[1]);
-    });
-    searchData = searchPrice2;
-    let searchType2 = searchData.filter((e) => e.type === type);
-    searchData = searchType2;
+    if (location) {
+      let searchLocation = searchData.filter(
+        (e) => e.location.country.toLowerCase() === location.toLowerCase()
+      );
+      searchData = searchLocation;
+    }
+    if (date) {
+      let searchDate = searchData.filter((e) => {
+        return new Date(e.when) - new Date(date) > 0;
+      });
+      searchData = searchDate;
+    }
+    if (price) {
+      let searchPrice = searchData.filter((e) => {
+        const aa = e.price.split("$");
+        const num = parseFloat(aa[1].replace(",", ""));
+        let a = price.split("-");
+        return num >= Number(a[0]) && num <= Number(a[1]);
+      });
+      searchData = searchPrice;
+    }
+    if (type) {
+      let searchType = searchData.filter((e) => e.type === type);
+      searchData = searchType;
+    }
     setAllProperty(searchData);
-    console.log(searchData);
+    // console.log(searchData);
   };
 
   useEffect(() => {}, []);
@@ -84,6 +91,7 @@ const HomePage = () => {
               value={type}
               onChange={(e) => setType(e.target.value)}
             >
+              <option>All</option>
               <option value={"Villa"}>Villa</option>
               <option value={"Bungalow"}>Bungalow</option>
               <option value={"Skyscraper"}>Skyscraper</option>
