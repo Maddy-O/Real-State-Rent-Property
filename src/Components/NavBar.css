@@ -1,8 +1,9 @@
 .navbar {
-    padding: 5px;
+    padding: 15px 0px;
     display: flex;
     justify-content: space-around;
-
+    background-color: gray;
+    align-items: center;
 }
 
 .navbarLink {
@@ -11,5 +12,5 @@
     padding: 10px 15px;
     border-radius: 15px;
     box-shadow: 2px 2px 2px 2px;
-
+    background-color: rgb(113, 132, 151);
 }

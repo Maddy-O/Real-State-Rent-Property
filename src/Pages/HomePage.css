@@ -3,6 +3,7 @@
     text-align: center;
     width: 80%;
     padding: 20px;
+    background-color: #f8f7fd;
 }
 
 .search {
@@ -58,9 +59,11 @@
 #properties {
     margin: auto;
     width: 80%;
+    min-height: 1vh;
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, .9fr);
     gap: 10px;
     justify-items: center;
+    background-color: #f8f7fd;
 }

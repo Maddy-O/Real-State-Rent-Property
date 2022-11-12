@@ -12,7 +12,7 @@ const FavouritesPage = () => {
 
   return (
     <div>
-      <div id="properties">
+      <div style={{ minHeight: "1vh" }}>
         {fav.map((e, index) => (
           <PropertyCompo key={index} property={e} remove={"remove"} />
         ))}
